@@ -83,7 +83,7 @@ first19Btn.addEventListener('click', function() {
     document.getElementById('19-line-one').style.display = 'block';
   } else if (player1.nineteen === 2) {
     document.getElementById('19-line-two').style.display = 'block';
-  } else if (player1.twenty >= 3) {
+  } else if (player1.nineteen >= 3) {
     document.getElementById('19-line-three').style.display = 'block';
   }
   if (player1.nineteen > 3) {
@@ -196,7 +196,7 @@ second19Btn.addEventListener('click', function() {
     document.getElementById('2-19-line-one').style.display = 'block';
   } else if (player2.nineteen === 2) {
     document.getElementById('2-19-line-two').style.display = 'block';
-  } else if (player2.twenty >= 3) {
+  } else if (player2.nineteen >= 3) {
     document.getElementById('2-19-line-three').style.display = 'block';
   }
   if (player2.nineteen > 3) {
@@ -226,9 +226,9 @@ second17Btn.addEventListener('click', function() {
   player2.seventeen += 1;
   if (player2.seventeen === 1) {
     document.getElementById('2-17-line-one').style.display = 'block';
-  } else if (player1.seventeen === 2) {
+  } else if (player2.seventeen === 2) {
     document.getElementById('2-17-line-two').style.display = 'block';
-  } else if (player1.seventeen >= 3) {
+  } else if (player2.seventeen >= 3) {
     document.getElementById('2-17-line-three').style.display = 'block';
   }
   if (player2.seventeen > 3) {
@@ -309,7 +309,7 @@ third19Btn.addEventListener('click', function() {
     document.getElementById('3-19-line-one').style.display = 'block';
   } else if (player3.nineteen === 2) {
     document.getElementById('3-19-line-two').style.display = 'block';
-  } else if (player3.twenty >= 3) {
+  } else if (player3.nineteen >= 3) {
     document.getElementById('3-19-line-three').style.display = 'block';
   }
   if (player3.nineteen > 3) {
