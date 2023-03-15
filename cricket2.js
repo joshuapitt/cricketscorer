@@ -658,84 +658,84 @@ sixth19Btn.addEventListener('click', function() {
   document.getElementById('player-score-6').textContent = player6.score;
 });
 
-const fifth18Btn = document.getElementById('fifth-18');
-fifth18Btn.addEventListener('click', function() {
-  player5.eighteen += 1;
-  if (player5.eighteen === 1) {
-    document.getElementById('5-18-line-one').style.display = 'block';
-  } else if (player5.eighteen === 2) {
-    document.getElementById('5-18-line-two').style.display = 'block';
-  } else if (player5.eighteen >= 3) {
-    document.getElementById('5-18-line-three').style.display = 'block';
+const sixth18Btn = document.getElementById('sixth-18');
+sixth18Btn.addEventListener('click', function() {
+  player6.eighteen += 1;
+  if (player6.eighteen === 1) {
+    document.getElementById('6-18-line-one').style.display = 'block';
+  } else if (player6.eighteen === 2) {
+    document.getElementById('6-18-line-two').style.display = 'block';
+  } else if (player6.eighteen >= 3) {
+    document.getElementById('6-18-line-three').style.display = 'block';
   }
-  if (player5.eighteen > 3) {
-    player5.score += 18;
+  if (player6.eighteen > 3) {
+    player6.score += 18;
   }
-  document.getElementById('player-score-5').textContent = player5.score;
+  document.getElementById('player-score-6').textContent = player6.score;
 });
 
-const fifth17Btn = document.getElementById('fifth-17');
-fifth17Btn.addEventListener('click', function() {
-  player5.seventeen += 1;
-  if (player5.seventeen === 1) {
-    document.getElementById('5-17-line-one').style.display = 'block';
-  } else if (player5.seventeen === 2) {
-    document.getElementById('5-17-line-two').style.display = 'block';
-  } else if (player5.seventeen >= 3) {
-    document.getElementById('5-17-line-three').style.display = 'block';
+const sixth17Btn = document.getElementById('sixth-17');
+sixth17Btn.addEventListener('click', function() {
+  player6.seventeen += 1;
+  if (player6.seventeen === 1) {
+    document.getElementById('6-17-line-one').style.display = 'block';
+  } else if (player6.seventeen === 2) {
+    document.getElementById('6-17-line-two').style.display = 'block';
+  } else if (player6.seventeen >= 3) {
+    document.getElementById('6-17-line-three').style.display = 'block';
   }
-  if (player5.seventeen > 3) {
-    player5.score += 17;
+  if (player6.seventeen > 3) {
+    player6.score += 17;
   }
-  document.getElementById('player-score-5').textContent = player5.score;
+  document.getElementById('player-score-6').textContent = player6.score;
 });
 
-const fifth16Btn = document.getElementById('fifth-16');
-fifth16Btn.addEventListener('click', function() {
-  player5.sixteen += 1;
-  if (player5.sixteen === 1) {
-    document.getElementById('5-16-line-one').style.display = 'block';
-  } else if (player5.sixteen === 2) {
-    document.getElementById('5-16-line-two').style.display = 'block';
-  } else if (player5.sixteen >= 3) {
-    document.getElementById('5-16-line-three').style.display = 'block';
+const sixth16Btn = document.getElementById('sixth-16');
+sixth16Btn.addEventListener('click', function() {
+  player6.sixteen += 1;
+  if (player6.sixteen === 1) {
+    document.getElementById('6-16-line-one').style.display = 'block';
+  } else if (player6.sixteen === 2) {
+    document.getElementById('6-16-line-two').style.display = 'block';
+  } else if (player6.sixteen >= 3) {
+    document.getElementById('6-16-line-three').style.display = 'block';
   }
-  if (player5.sixteen > 3) {
-    player5.score += 16;
+  if (player6.sixteen > 3) {
+    player6.score += 16;
   }
-  document.getElementById('player-score-5').textContent = player5.score;
+  document.getElementById('player-score-6').textContent = player6.score;
 });
 
-const fifth15Btn = document.getElementById('fifth-15');
-fifth15Btn.addEventListener('click', function() {
-  player5.fifteen += 1;
-  if (player5.fifteen === 1) {
-    document.getElementById('5-15-line-one').style.display = 'block';
-  } else if (player5.fifteen === 2) {
-    document.getElementById('5-15-line-two').style.display = 'block';
-  } else if (player5.fifteen >= 3) {
-    document.getElementById('5-15-line-three').style.display = 'block';
+const sixth15Btn = document.getElementById('sixth-15');
+sixth15Btn.addEventListener('click', function() {
+  player6.fifteen += 1;
+  if (player6.fifteen === 1) {
+    document.getElementById('6-15-line-one').style.display = 'block';
+  } else if (player6.fifteen === 2) {
+    document.getElementById('6-15-line-two').style.display = 'block';
+  } else if (player6.fifteen >= 3) {
+    document.getElementById('6-15-line-three').style.display = 'block';
   }
-  if (player5.fifteen > 3) {
-    player5.score += 15;
+  if (player6.fifteen > 3) {
+    player6.score += 15;
   }
-  document.getElementById('player-score-5').textContent = player5.score;
+  document.getElementById('player-score-6').textContent = player6.score;
 });
 
-const fifthbullBtn = document.getElementById('fifth-bull');
-fifthbullBtn.addEventListener('click', function() {
-  player5.bull += 1;
-  if (player5.bull === 1) {
-    document.getElementById('5-bull-line-one').style.display = 'block';
-  } else if (player5.bull === 2) {
-    document.getElementById('5-bull-line-two').style.display = 'block';
-  } else if (player5.bull >= 3) {
-    document.getElementById('5-bull-line-three').style.display = 'block';
+const sixthbullBtn = document.getElementById('sixth-bull');
+sixthbullBtn.addEventListener('click', function() {
+  player6.bull += 1;
+  if (player6.bull === 1) {
+    document.getElementById('6-bull-line-one').style.display = 'block';
+  } else if (player6.bull === 2) {
+    document.getElementById('6-bull-line-two').style.display = 'block';
+  } else if (player6.bull >= 3) {
+    document.getElementById('6-bull-line-three').style.display = 'block';
   }
-  if (player5.bull > 3) {
-    player5.score += 25;
+  if (player6.bull > 3) {
+    player6.score += 25;
   }
-  document.getElementById('player-score-5').textContent = player5.score;
+  document.getElementById('player-score-6').textContent = player6.score;
 });
 
 
