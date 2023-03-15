@@ -189,7 +189,103 @@ second20Btn.addEventListener('click', function() {
   document.getElementById('player-score-2').textContent = player2.score;
 });
 
-// Player 3 (20 button)
+const second19Btn = document.getElementById('second-19');
+second19Btn.addEventListener('click', function() {
+  player2.nineteen += 1;
+  if (player2.nineteen === 1) {
+    document.getElementById('2-19-line-one').style.display = 'block';
+  } else if (player2.nineteen === 2) {
+    document.getElementById('2-19-line-two').style.display = 'block';
+  } else if (player2.twenty >= 3) {
+    document.getElementById('2-19-line-three').style.display = 'block';
+  }
+  if (player2.nineteen > 3) {
+    player2.score += 19;
+  }
+  document.getElementById('player-score-2').textContent = player2.score;
+});
+
+const second18Btn = document.getElementById('second-18');
+second18Btn.addEventListener('click', function() {
+  player2.eighteen += 1;
+  if (player2.eighteen === 1) {
+    document.getElementById('2-18-line-one').style.display = 'block';
+  } else if (player2.eighteen === 2) {
+    document.getElementById('2-18-line-two').style.display = 'block';
+  } else if (player2.eighteen >= 3) {
+    document.getElementById('2-18-line-three').style.display = 'block';
+  }
+  if (player2.eighteen > 3) {
+    player2.score += 18;
+  }
+  document.getElementById('player-score-2').textContent = player2.score;
+});
+
+const second17Btn = document.getElementById('second-17');
+second17Btn.addEventListener('click', function() {
+  player2.seventeen += 1;
+  if (player2.seventeen === 1) {
+    document.getElementById('2-17-line-one').style.display = 'block';
+  } else if (player1.seventeen === 2) {
+    document.getElementById('2-17-line-two').style.display = 'block';
+  } else if (player1.seventeen >= 3) {
+    document.getElementById('2-17-line-three').style.display = 'block';
+  }
+  if (player2.seventeen > 3) {
+    player2.score += 17;
+  }
+  document.getElementById('player-score-2').textContent = player2.score;
+});
+
+const second16Btn = document.getElementById('second-16');
+second16Btn.addEventListener('click', function() {
+  player2.sixteen += 1;
+  if (player2.sixteen === 1) {
+    document.getElementById('2-16-line-one').style.display = 'block';
+  } else if (player2.sixteen === 2) {
+    document.getElementById('2-16-line-two').style.display = 'block';
+  } else if (player2.sixteen >= 3) {
+    document.getElementById('2-16-line-three').style.display = 'block';
+  }
+  if (player2.sixteen > 3) {
+    player2.score += 16;
+  }
+  document.getElementById('player-score-2').textContent = player2.score;
+});
+
+const second15Btn = document.getElementById('second-15');
+second15Btn.addEventListener('click', function() {
+  player2.fifteen += 1;
+  if (player2.fifteen === 1) {
+    document.getElementById('2-15-line-one').style.display = 'block';
+  } else if (player2.fifteen === 2) {
+    document.getElementById('2-15-line-two').style.display = 'block';
+  } else if (player2.fifteen >= 3) {
+    document.getElementById('2-15-line-three').style.display = 'block';
+  }
+  if (player2.fifteen > 3) {
+    player2.score += 15;
+  }
+  document.getElementById('player-score-2').textContent = player2.score;
+});
+
+const secondbullBtn = document.getElementById('second-bull');
+secondbullBtn.addEventListener('click', function() {
+  player2.bull += 1;
+  if (player2.bull === 1) {
+    document.getElementById('2-bull-line-one').style.display = 'block';
+  } else if (player2.bull === 2) {
+    document.getElementById('2-bull-line-two').style.display = 'block';
+  } else if (player2.bull >= 3) {
+    document.getElementById('2-bull-line-three').style.display = 'block';
+  }
+  if (player2.bull > 3) {
+    player2.score += 25;
+  }
+  document.getElementById('player-score-2').textContent = player2.score;
+});
+
+// Player 3 buttons
 const third20Btn = document.getElementById('third-20');
 third20Btn.addEventListener('click', function() {
   player3.twenty += 1;
@@ -205,6 +301,103 @@ third20Btn.addEventListener('click', function() {
   }
   document.getElementById('player-score-3').textContent = player3.score;
 });
+
+const third19Btn = document.getElementById('third-19');
+third19Btn.addEventListener('click', function() {
+  player3.nineteen += 1;
+  if (player3.nineteen === 1) {
+    document.getElementById('3-19-line-one').style.display = 'block';
+  } else if (player3.nineteen === 2) {
+    document.getElementById('3-19-line-two').style.display = 'block';
+  } else if (player3.twenty >= 3) {
+    document.getElementById('3-19-line-three').style.display = 'block';
+  }
+  if (player3.nineteen > 3) {
+    player3.score += 19;
+  }
+  document.getElementById('player-score-3').textContent = player3.score;
+});
+
+const third18Btn = document.getElementById('third-18');
+third18Btn.addEventListener('click', function() {
+  player3.eighteen += 1;
+  if (player3.eighteen === 1) {
+    document.getElementById('3-18-line-one').style.display = 'block';
+  } else if (player3.eighteen === 2) {
+    document.getElementById('3-18-line-two').style.display = 'block';
+  } else if (player3.eighteen >= 3) {
+    document.getElementById('3-18-line-three').style.display = 'block';
+  }
+  if (player3.eighteen > 3) {
+    player3.score += 18;
+  }
+  document.getElementById('player-score-3').textContent = player3.score;
+});
+
+const third17Btn = document.getElementById('third-17');
+third17Btn.addEventListener('click', function() {
+  player3.seventeen += 1;
+  if (player3.seventeen === 1) {
+    document.getElementById('3-17-line-one').style.display = 'block';
+  } else if (player3.seventeen === 2) {
+    document.getElementById('3-17-line-two').style.display = 'block';
+  } else if (player3.seventeen >= 3) {
+    document.getElementById('3-17-line-three').style.display = 'block';
+  }
+  if (player3.seventeen > 3) {
+    player3.score += 17;
+  }
+  document.getElementById('player-score-3').textContent = player3.score;
+});
+
+const third16Btn = document.getElementById('third-16');
+third16Btn.addEventListener('click', function() {
+  player3.sixteen += 1;
+  if (player3.sixteen === 1) {
+    document.getElementById('3-16-line-one').style.display = 'block';
+  } else if (player3.sixteen === 2) {
+    document.getElementById('3-16-line-two').style.display = 'block';
+  } else if (player3.sixteen >= 3) {
+    document.getElementById('3-16-line-three').style.display = 'block';
+  }
+  if (player3.sixteen > 3) {
+    player3.score += 16;
+  }
+  document.getElementById('player-score-3').textContent = player3.score;
+});
+
+const third15Btn = document.getElementById('third-15');
+third15Btn.addEventListener('click', function() {
+  player3.fifteen += 1;
+  if (player3.fifteen === 1) {
+    document.getElementById('3-15-line-one').style.display = 'block';
+  } else if (player3.fifteen === 2) {
+    document.getElementById('3-15-line-two').style.display = 'block';
+  } else if (player3.fifteen >= 3) {
+    document.getElementById('3-15-line-three').style.display = 'block';
+  }
+  if (player3.fifteen > 3) {
+    player3.score += 15;
+  }
+  document.getElementById('player-score-3').textContent = player3.score;
+});
+
+const thirdbullBtn = document.getElementById('third-bull');
+thirdbullBtn.addEventListener('click', function() {
+  player3.bull += 1;
+  if (player3.bull === 1) {
+    document.getElementById('3-bull-line-one').style.display = 'block';
+  } else if (player3.bull === 2) {
+    document.getElementById('3-bull-line-two').style.display = 'block';
+  } else if (player3.bull >= 3) {
+    document.getElementById('3-bull-line-three').style.display = 'block';
+  }
+  if (player3.bull > 3) {
+    player3.score += 25;
+  }
+  document.getElementById('player-score-3').textContent = player3.score;
+});
+
 
 // Player 4 (20 button)
 const fourth20Btn = document.getElementById('fourth-20');
